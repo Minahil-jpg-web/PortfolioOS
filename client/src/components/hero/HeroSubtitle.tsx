@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useTypewriter } from "../../hooks/useTypewriter";
+
 
 function HeroSubtitle() {
   return (
@@ -11,9 +11,7 @@ function HeroSubtitle() {
         className="text-2xl font-semibold tracking-tight text-slate-200 sm:text-3xl lg:text-4xl"
       >
         Full Stack{" "}
-        <span
-          className="animate-[gradient-shift_4s_ease_infinite] bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text text-transparent"
-        >
+        <span className="animate-[gradient-shift_4s_ease_infinite] bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text text-transparent">
           Developer
         </span>
       </motion.h2>
